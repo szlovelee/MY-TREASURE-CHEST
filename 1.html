@@ -3,25 +3,118 @@
 <head>
   <title>BUBU</title>
   <meta charset="utf-8">
+  <style>
+    a {
+      color:white;
+    }
+    #title {
+      text-decoration: none;
+      color: pink;
+      font-size: 72px;
+      text-align: center;
+      border-bottom: 3px solid white;
+      border-bottom-left-radius: 10px;
+      border-bottom-right-radius: 10px;
+      padding:50px;
+      display: block;
+    }
+    #active {
+      color: hotpink;
+      text-decoration: underline;
+    }
+    #BUBU {
+      border: 1px solid white;
+      margin: 30px;
+      margin-left: 40px;
+      padding-left: 30px;
+      padding-right: 30px;
+      padding-bottom: 30px;
+      padding-top: 0px;
+    }
+    #BUBUtitle {
+      font-size: 48px;
+      line-height:0;
+      border-style: none;
+      padding: 10px;
+    }
+    #pg1 {
+      display: grid;
+      grid-template-columns: 250px 1fr;
+    }
+    #WhoisBUBU {
+      border-bottom: 1px solid white;
+      padding-bottom:20px;
+    }
+    .video-container {
+    	position: relative;
+    	padding-bottom: 56.25%;
+    	padding-top: 30px;
+    	height: 0;
+    	overflow: hidden;
+    }
+
+    .video-container iframe,
+    .video-container object,
+    .video-container embed {
+    	position: absolute;
+    	top: 0;
+    	left: 0;
+    	width: 100%;
+    	height: 100%;
+    }
+    .list {
+      color: pink;
+      text-decoration: none;
+      line-height: 200%;
+    }
+    body {
+      letter-spacing: 1px;
+      background-color: black;
+      color: white;
+      font-family: Impact;
+    }
+  ul {
+    font-size: 20px;
+    border-right: 1px solid white;
+    width: 200px;
+    padding-top: 30px;
+    margin:20px;
+  }
+    h1 {
+      margin: 0;
+    }
+    h2 {
+      color: lightgreen;
+      letter-spacing: 3px;
+    }
+    h4 {
+      font-size: 24px;
+      color: grey;
+      font-weight: bold;
+    }
+
+  </style>
 </head>
 
 <body>
-  <h1><a href="index.html">MY TREASURE CHEST</a></h1>
+
+  <h1><a href="index.html" id="title">MY TREASURE CHEST</a></h1>
+<div id="pg1">
 <ul>
-  <li><a href="1.html">BUBU</a></li>
-  <li><a href="2.html">KITTEN</a></li>
-  <li><a href="3.html">AECHI</a></li>
+  <li><a href="1.html" class="list" id="active">BUBU</a></li>
+  <li><a href="2.html" class="list">KITTEN</a></li>
+  <li><a href="3.html" class="list">AECHI</a></li>
 </ul>
 
-<h2>BUBU</h2>
-
-<img src="BUBU.jpg" width='560'>
-
-<h4>Who is BUBU?</h4>
-  <p><a href="https://search.naver.com/search.naver?ie=UTF-8&query=%ED%83%9C%EC%9A%A9&sm=chr_hty" target="_blank" title="search BUBU">
-  <strong>BUBU</strong></a> (<u>a.k.a. Taeyomi</u>) is <strong>a tiny rice-ball</strong> with a warm heart and a strong inner side.
-  He loves sweet things (especially dried sweet potato) and his fish tank. Taeyomi is under protection of <strong>TyongFs</strong> who are willing to take care of this rice-ball.</p>
+<div id="BUBU">
+<div id="BUBUtitle"><h2>BUBU</h2></div>
+<img src="BUBU.jpg" width=100%>
+  <div id="WhoisBUBU"><h4>Who is BUBU?</h4>
+    <p><a href="https://search.naver.com/search.naver?ie=UTF-8&query=%ED%83%9C%EC%9A%A9&sm=chr_hty" target="_blank" title="search BUBU">
+      <strong>BUBU</strong></a> (<u>a.k.a. Taeyomi</u>) is <strong>a tiny rice-ball</strong> with a warm heart and a strong inner side.
+      He loves sweet things (especially dried sweet potato) and his fish tank. Taeyomi is under protection of <strong>TyongFs</strong> who are willing to take care of this rice-ball.</p></div>
+  <div id=FavoriteMoments><h4>Favorite Moments</h4>
+    <p><div class="video-container"><iframe width="560" height="315" src="https://www.youtube.com/embed/AZ30spQW8Mk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div></p></div>
+</div>
+</div>
 </body>
-
-<h4>Favorite Moments</h4>
-<p><iframe width="560" height="315" src="https://www.youtube.com/embed/AZ30spQW8Mk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
